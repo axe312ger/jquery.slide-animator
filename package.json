@@ -1,0 +1,38 @@
+{
+  "name": "css-image-animator",
+  "version": "0.0.0",
+  "description": "This library can be used to map animations to a list of images. The animations will run after each other. The typical usecase might be an image slideshow.",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test",
+    "gulp-tasks": "tasks"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-bower": "^0.0.10",
+    "gulp-eslint": "^0.15.0",
+    "gulp-jade": "^1.0.1",
+    "gulp-live-server": "0.0.20",
+    "gulp-open": "^0.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "require-dir": "^0.3.0"
+  },
+  "scripts": {
+    "develop": "gulp",
+    "release": "gulp release",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axe312ger/css-image-animator.git"
+  },
+  "author": "Benedikt Rötsch <info@benedikt-roetsch.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axe312ger/css-image-animator/issues"
+  },
+  "homepage": "https://github.com/axe312ger/css-image-animator#readme"
+}

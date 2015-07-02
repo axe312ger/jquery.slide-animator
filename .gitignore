@@ -1,0 +1,5 @@
+test/assets/vendor
+test/assets/css
+test/index.html
+node_modules
+.DS_Store
