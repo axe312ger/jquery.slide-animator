@@ -12,5 +12,10 @@
     "media",
     "node_modules",
     "test"
-  ]
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "jquery.slide-animator": "*",
+    "normalize-scss": "~3.0.3"
+  }
 }
