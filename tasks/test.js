@@ -13,9 +13,9 @@ var open = require('gulp-open');
 gulp.task('test', ['test-open-server', 'test-watch']);
 
 gulp.task('test-watch', function () {
-  gulp.watch('./assets/sass/**/*.sass', ['sass']);
-  gulp.watch('./assets/js/**/*.js', ['lint']);
-  gulp.watch('./assets/jade/**/*.jade', ['jade']);
+  gulp.watch('./test/assets/sass/**/*.sass', ['sass']);
+  gulp.watch('./test/assets/js/**/*.js', ['lint']);
+  gulp.watch('./test/assets/jade/**/*.jade', ['jade']);
 });
 
 // Install all bower dependencies
