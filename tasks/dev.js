@@ -12,7 +12,7 @@ gulp.task('lint', function () {
 
 // Javscript linting
 gulp.task('lint-release', function () {
-  return gulp.src('./jquery.css-image-animator.js')
+  return gulp.src('./jquery.slide-animator.js')
     .pipe(eslint())
     .pipe(eslint.format())
     .pipe(eslint.failAfterError());

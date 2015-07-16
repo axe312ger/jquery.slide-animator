@@ -1,12 +1,12 @@
 {
-  "name": "css-image-animator",
+  "name": "jquery.slide-animator",
   "version": "0.0.0",
-  "homepage": "https://github.com/axe312ger/css-image-animator",
+  "homepage": "https://github.com/axe312ger/jquery.slide-animator",
   "authors": [
-    "Benedikt Rötsch <info@benedikt-roetsch.de>"
+    "Benedikt Rötsch <info@benedikt-roetsch.de>"
   ],
   "description": "This library can be used to map animations to a list of images. The animations will run after each other. The typical usecase might be an image slideshow.",
-  "main": "jquery.css-image.animator.js",
+  "main": "jquery.slide-animator.js",
   "license": "MIT",
   "ignore": [
     "media",

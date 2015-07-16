@@ -1,6 +1,6 @@
-css-image-animator
+jquery.slide-animator
 ========
-[![devDependency Status](https://david-dm.org/axe312ger/css-image-animator/dev-status.svg)](https://david-dm.org/axe312ger/css-image-animator#info=devDependencies)
+[![devDependency Status](https://david-dm.org/axe312ger/jquery.slide-animator/dev-status.svg)](https://david-dm.org/axe312ger/jquery.slide-animator#info=devDependencies)
 
 This library can be used to map animations to a list of images. The animations will run after each other. The typical usecase might be an image slideshow.
 
@@ -25,12 +25,12 @@ To give you an overview of the performance improvements this library can offer, 
 I will publish the URI as soon as the website is online :)
 
 This is the timeline for the old custom code in the project. The minimum fps is at 2.17fps and there are many visible spikes. You can also see the performance issues caused by loading all images at once and without preloading.
-![Performance without css-image-animator](/media/performance-custom-code.png?raw=true)
+![Performance without jquery.slide-animator](/media/performance-custom-code.png?raw=true)
 
-This is the timeline with css-image-animator, but with div's instead of images. Its already way better, the minimum fps increased to 4.30, but there are still a lot of spikes.
+This is the timeline with jquery.slide-animator, but with div's instead of images. Its already way better, the minimum fps increased to 4.30, but there are still a lot of spikes.
 ![Performance with divs](/media/performance-div.png?raw=true)
 
-This is the timeline with css-image-animator and real images. With real images, the performance is great. The minimum fps rised to 25.39 and the last spikes are caused by network requests from other scripts.
+This is the timeline with jquery.slide-animator and real images. With real images, the performance is great. The minimum fps rised to 25.39 and the last spikes are caused by network requests from other scripts.
 ![Performance with images](/media/performance-img.png?raw=true)
 
 # Usage
@@ -43,8 +43,8 @@ Any block element which can contain children is suitable.
 
 Load the library js & css files
 ```HTML
-<link href="assets/vendor/css-image-animator/css-image-animator.css" rel="stylesheet">
-<script src="assets/vendor/css-image-animator/jquery.css-image-animator.js"></script>
+<link href="assets/vendor/jquery.slide-animator/jquery.slide-animator.css" rel="stylesheet">
+<script src="assets/vendor/jquery.slide-animator/jquery.slide-animator.js"></script>
 ```
 
 ## CSS
@@ -116,7 +116,7 @@ $('.any-block-element').cssImageAnimator({
   animationClass: '', // Required
   urlParam: 'image.src', // Required
   template: '<figure>{{img}}<figcaption>{{caption}}</figcaption></figure>',
-  cssClass: 'css-image-animator',
+  cssClass: 'jquery-slide-animator',
   animatingClass: 'animating',
   root: 'slides',
   child: 'slide',

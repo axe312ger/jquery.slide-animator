@@ -1,5 +1,5 @@
 {
-  "name": "css-image-animator",
+  "name": "jquery.slide-animator",
   "version": "0.0.0",
   "description": "This library can be used to map animations to a list of images. The animations will run after each other. The typical usecase might be an image slideshow.",
   "main": "gulpfile.js",
@@ -27,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axe312ger/css-image-animator.git"
+    "url": "git+https://github.com/axe312ger/jquery.slide-animator.git"
   },
   "author": "Benedikt Rötsch <info@benedikt-roetsch.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axe312ger/css-image-animator/issues"
+    "url": "https://github.com/axe312ger/jquery.slide-animator/issues"
   },
-  "homepage": "https://github.com/axe312ger/css-image-animator#readme"
+  "homepage": "https://github.com/axe312ger/jquery.slide-animator#readme"
 }

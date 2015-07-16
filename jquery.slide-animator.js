@@ -1,5 +1,5 @@
 /*!
- * css-image-animator
+ * jquery.slide-animator
  * Original author: @axe312ger
  * Further changes, code style: @zcei
  * Licensed under the MIT license
@@ -24,7 +24,7 @@
   var pluginName = 'cssImageAnimator',
     defaults = {
       template: '<figure>{{img}}<figcaption>{{caption}}</figcaption></figure>',
-      cssClass: 'css-image-animator',
+      cssClass: 'jquery-slide-animator',
       animatingClass: 'animating',
       root: 'slides',
       child: 'slide',

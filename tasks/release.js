@@ -6,7 +6,7 @@ var rename = require('gulp-rename');
 
 // Javascript minification
 gulp.task('release', ['lint-release'], function () {
-  return gulp.src('./jquery.css-image-animator.js')
+  return gulp.src('./jquery.slide-animator.js')
     .pipe(uglify())
     .pipe(rename({
       extname: '.min.js'
