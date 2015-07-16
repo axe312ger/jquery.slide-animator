@@ -93,7 +93,7 @@ The JSON document is a simple list of slides. You can alter the root and child p
 ## JS
 ```JavaScript
 (function ($) {
-  $('.col').cssImageAnimator({
+  $('.col').slideAnimator({
     src: 'images.json',
     animationClass: 'backgroundAnimation',
     urlParam: 'src'
@@ -105,12 +105,12 @@ Look at the performance tests in the "test" directory for a working example.
 
 # API
 
-## cssImageAnimator(options:Array)
+## slideAnimator(options:Array)
 
 Default options below:
 
 ```JavaScript
-$('.any-block-element').cssImageAnimator({
+$('.any-block-element').slideAnimator({
   src: '//example.com/ajax/slides.json', // Required
   animationClass: '', // Required
   urlParam: 'image.src', // Required
@@ -182,7 +182,7 @@ Set to true if you also want to animate the backslide.
 ### options.onAnimationStart
 Callback for the start of the animation
 ```JavaScript
-$('.any-block-element').cssImageAnimator({
+$('.any-block-element').slideAnimator({
   onAnimationStart: function (currentSlide, $frontSlide, $backSlide) {
   }
 });
@@ -191,7 +191,7 @@ $('.any-block-element').cssImageAnimator({
 ### options.onAnimationEnd
 Callback for the end of the animation
 ```JavaScript
-$('.any-block-element').cssImageAnimator({
+$('.any-block-element').slideAnimator({
   onAnimationEnd: function (currentSlide, $frontSlide, $backSlide) {
   }
 });

@@ -8,7 +8,7 @@
 /*
   * Usage with required options:
   *
-  * jQuery('.any-block-element').cssImageAnimator({
+  * jQuery('.any-block-element').slideAnimator({
   *   src: '//example.com/ajax/slides.json',
   *   animationClass: '',
   *   urlParam: 'image.src'
@@ -21,7 +21,7 @@
 ;(function ($, window, document, undefined) {
   /* eslint-enable */
   // Create the defaults once
-  var pluginName = 'cssImageAnimator',
+  var pluginName = 'slideAnimator',
     defaults = {
       template: '<figure>{{img}}<figcaption>{{caption}}</figcaption></figure>',
       cssClass: 'jquery-slide-animator',

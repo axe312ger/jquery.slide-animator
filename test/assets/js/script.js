@@ -16,7 +16,7 @@
       $row.appendTo('main');
     }
 
-    $('.col').cssImageAnimator({
+    $('.col').slideAnimator({
       src: '/assets/json/images.json',
       animationClass: 'background-animation',
       urlParam: 'src',
