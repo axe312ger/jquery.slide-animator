@@ -43,7 +43,6 @@ Any block element which can contain children is suitable.
 
 Load the library js & css files
 ```HTML
-<link href="assets/vendor/jquery.slide-animator/jquery.slide-animator.css" rel="stylesheet">
 <script src="assets/vendor/jquery.slide-animator/jquery.slide-animator.js"></script>
 ```
 
