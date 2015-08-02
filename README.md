@@ -1,6 +1,6 @@
 jquery.slide-animator
 ========
-[![devDependency Status](https://david-dm.org/axe312ger/jquery.slide-animator/dev-status.svg)](https://david-dm.org/axe312ger/jquery.slide-animator#info=devDependencies) [![Bower version](https://badge.fury.io/bo/jquery.slide-animator.svg)](http://badge.fury.io/bo/jquery.slide-animator) ![](https://reposs.herokuapp.com/?path=axe312ger/jquery.slide-animator) [![License](http://img.shields.io/:license-mit-blue.svg)](http://axe312.mit-license.org)
+[![devDependency Status](https://david-dm.org/axe312ger/jquery.slide-animator/dev-status.svg)](https://david-dm.org/axe312ger/jquery.slide-animator#info=devDependencies) [![Bower version](https://badge.fury.io/bo/jquery.slide-animator.svg)](http://badge.fury.io/bo/jquery.slide-animator)  [![License](http://img.shields.io/:license-mit-blue.svg)](http://axe312.mit-license.org)
 
 This library can be used to map animations to a list of images. The animations will run after each other. The typical usecase might be an image slideshow.
 
